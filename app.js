@@ -12,7 +12,7 @@ var swiper = new Swiper(".image-slider", {
   },
   loop: true,
   autoplay: {
-    delay: 2000,
+    delay: 3000, // Reduced delay for mobile
   },
 });
 

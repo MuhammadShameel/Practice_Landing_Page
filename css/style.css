@@ -122,22 +122,23 @@ header .navbar a:hover {
   color: #eee;
   padding: 1rem 0;
 }
-
 .home .swiper-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   width: 100%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  overflow: hidden;
 }
 
 .home .swiper-slide {
-  width: 30rem;
-  height: 50rem;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .home .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 500px;
 }
 
 .features .box-container {
