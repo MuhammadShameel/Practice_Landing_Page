@@ -7,15 +7,6 @@
   --gradient: linear-gradient(90deg, var(--pink), var(--coral));
 }
 
-.fade-in {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.fade-in.active {
-  opacity: 1;
-}
-
 * {
   font-family: "Nunito", sans-serif;
   margin: 0;
