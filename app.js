@@ -16,6 +16,11 @@ var swiper = new Swiper(".image-slider", {
   },
 });
 
+window.addEventListener("load", function () {
+  const element = document.querySelector(".fade-in");
+  element.classList.add("active");
+});
+
 let menu = document.querySelector("#menu-bar");
 let navbar = document.querySelector(".navbar");
 

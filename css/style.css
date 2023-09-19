@@ -7,6 +7,18 @@
   --gradient: linear-gradient(90deg, var(--pink), var(--coral));
 }
 
+/* animation  */
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Define the final state with opacity 1 (fully visible) */
+.fade-in.active {
+  opacity: 1;
+}
+
 * {
   font-family: "Nunito", sans-serif;
   margin: 0;
