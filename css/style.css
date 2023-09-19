@@ -435,9 +435,9 @@ header .navbar a:hover {
 
 .footer .credit {
   color: #eee;
-  padding: 2.5rem 1rem;
+  padding: 40px 16px;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 .footer .credit span {
@@ -469,6 +469,7 @@ header .navbar a:hover {
   #menu-bar {
     display: block;
   }
+
   header .navbar {
     position: absolute;
     top: 100%;
@@ -479,6 +480,7 @@ header .navbar a:hover {
     padding: 1rem 2rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
+
   header .navbar.nav-toggle {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
